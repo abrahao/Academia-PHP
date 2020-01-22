@@ -1,0 +1,59 @@
+h1 {
+    text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+.nav-collapse {
+    background-color: #7F5AF7;
+}
+
+.container {
+    text-align: center;
+}
+
+.administrativo {
+    width: 380px;
+    height: 180px;
+    font-size: 34px;
+    background-color: #66ff66;
+    box-shadow: 5px 5px 8px 7px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.financeiro {
+    width: 380px;
+    height: 180px;
+    font-size: 34px;
+    background-color: #daa520;
+    box-shadow: 5px 5px 8px 7px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.administrativo:hover,
+.financeiro:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.barra-voltar {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#voltar {
+    margin-left: 10px;
+}
+
+.jumbotron {
+    margin-left: 50px;
+    margin-right: 50px;
+}

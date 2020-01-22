@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>Be Healthy Academia</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Be Healthy Academia</h1>
+        <h2>Mantenha-se Saudável</h2>
+    </header>
+    <main class="principal">
+        <div class="conteudo">
+            <nav class="modulos">
+
+                <div class="modulo laranja">
+                    <h3>Administrativo</h3>
+
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=inserir_2">Inserir Participante</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=consultar">Consultar Registros</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=excluir_2">Excluir Registros</a></li>
+                    </ul>
+                </div>
+                <div class="modulo azul">
+                    <h3>Financeiro</h3>
+
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=inserir_2">Realizar Pagamento</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=consultar">Consultar Pagamentos Atrasados</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=db&file=excluir_2"></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </main>
+    <footer class="rodape">
+    Desenvolvido por Abrahão Eneias © <?= date('Y'); ?>
+    </footer>
+</body>
+</html>

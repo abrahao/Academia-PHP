@@ -4,7 +4,7 @@
 <head>
     <style>
         body {
-            background-image: url('background.jpg');
+            background-image: url('assets/background.jpg');
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;

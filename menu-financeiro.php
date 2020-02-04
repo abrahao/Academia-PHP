@@ -9,42 +9,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="style.css">
-    <title>Administrativo</title>
+    <title>Financeiro</title>
 </head>
 
 <body>
-    <header>
-        <nav class="nav-collapse">
-            &nbsp;
-            <h1 class="titulo">Be Healthy Academia</h1>
-            &nbsp;
-        </nav>
-    </header>
-    <br>
+
+<?php
+require_once "cabecalho.php" 
+?>
+
     <div class="barra-voltar">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Menu Administrativo</li>
+                <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Menu Financeiro</li>
             </ol>
         </nav>
     </div>
+    <br>
     <br>
     <div class="">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <a href="./adicionar-usuario.html"><img src="./assets/add-user.jpg" alt="" width=100 height=100>
+                    <a href="realizar-pagamento.php"><img src="./assets/pay.png" alt="" width=100 height=100>
                     </a>
-                    <br> Adicionar Usuário
+                    <br> Relizar Pagamento
                 </div>
                 <div class="col">
-                    <a href=""><img src="./assets/query.png" alt="" width=100 height=100></a>
-                    <br> Consultar Usuário
+                    <a href=""><img src="./assets/pay_2.png" alt="" width=100 height=100></a>
+                    <br> Consultar Pagamentos Atrasados
                 </div>
                 <div class="col">
-                    <a href=""><img src="./assets/remover-user.png" alt="" width=100 height=100></a>
-                    <br> Excluir Usuário
+                    <a href=""><img src="./assets/relatorios.png" alt="" width=100 height=100></a>
+                    <br> Relatórios
                 </div>
             </div>
         </div>

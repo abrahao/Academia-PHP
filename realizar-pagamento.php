@@ -13,20 +13,18 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav-collapse">
-            &nbsp;
-            <h1 class="titulo">Be Healthy Academia</h1>
-            &nbsp;
-        </nav>
-    </header>
+
+<?php
+require_once "cabecalho.php" 
+?>
+
     <br>
     <div class="barra-voltar">
         <div class="col">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-                    <li class="breadcrumb-item"><a href="./menu-financeiro.html">Menu Financeiro</a></li>
+                    <li class="breadcrumb-item"><a href="./index.php">Home</a></li>
+                    <li class="breadcrumb-item"><a href="./menu-financeiro.php">Menu Financeiro</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Realizar Pagamento</li>
                 </ol>
             </nav>

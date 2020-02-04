@@ -19,25 +19,23 @@
 </head>
 
 <body>
-    <header>
-        <nav class="nav-collapse">
-            &nbsp;
-            <h1 class="titulo">Be Healthy Academia</h1>
-            &nbsp;
-        </nav>
-    </header>
+
+<?php
+require_once "cabecalho.php" 
+?>
+
     <br>
     <div class="">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <a href="menu-admin.html">
+                    <a href="menu-admin.php">
                         <button type="button" class="administrativo">Administrativo</button>
                     </a>
 
                 </div>
                 <div class="col">
-                    <a href="menu-financeiro.html">
+                    <a href="menu-financeiro.php">
                         <button type="button" class="financeiro">Financeiro</button>
                     </a>
                 </div>

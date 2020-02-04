@@ -31,6 +31,7 @@ if(count($_POST) > 0) {
 }
 ?>
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -40,13 +41,17 @@ if(count($_POST) > 0) {
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Adicionar Usuário</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <title>Financeiro</title>
 </head>
 
 <body>
-<?php 
-    require_once "../cabecalho.php"
+
+<?php
+    require_once "../cabecalho.php";
 ?>
+
     <br>
     <div class="barra-voltar">
         <div class="row">
@@ -61,7 +66,6 @@ if(count($_POST) > 0) {
             </div>
         </div>
     </div>
-    <br>
 
     <div class="jumbotron">
         <h1>Cadastro de Usuário</h1>
@@ -72,12 +76,18 @@ if(count($_POST) > 0) {
                         <label for="">Nome Completo</label>
                         <input type="text" class="form-control" name="nome" placeholder="Seu nome">
                     </div>
-                    <?php echo $nome ?>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="">Dia de Vencimento</label>
+                        <input type="text" class="form-control" name="dia_venc" placeholder="vencimento">
+                    </div>
                 </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
+
 </body>
 
 </html>
